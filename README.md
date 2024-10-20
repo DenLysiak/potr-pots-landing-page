@@ -21,8 +21,12 @@ Throught app scss pseudo-classes such as: 'hover', 'active', 'visited', 'focus',
 
 To style separate elements pseudo-elements are used such as: 'placeholder', 'after/before elements', '-webkit-scrollbar'.
 
+Throught the page 'display: grid' is used for adaptive page layout;
+
 Slider on mobile devices performed using properties: '-webkit-overflow-scrolling', 'scroll-snap-type' with 'with display: flex' on container and 'flex-shrink: 0' on single slide,
 so on user screen can be seen only one slide at the time, but whole container can be scrolled left and right smootly;
+
+Images at the bottom have 'hover' effect with 'transform' property for better user experiance.
 
 Also, to avoid style mistakes separate variables file is used to keep all repetitive styles in one place.
 All images and icons are placed in separate folder, compresed and some icons are used as 'svg' files to keep best resolutions.
